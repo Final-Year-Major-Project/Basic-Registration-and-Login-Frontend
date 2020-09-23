@@ -3,7 +3,7 @@ Basic Frontend for Home page, Login page and Registration page for Online Examin
    
    Upload your Task in this Ropository as:
    
-   1. Create a new Breanch by Clicking Master Button and name it as your name.
+   1. Create a new Branch by Clicking Master Button and name it as your name.
    2. Inside that add your files as
       Home.html,  Home.css,  Student_login.html,  Student_login.css
    
