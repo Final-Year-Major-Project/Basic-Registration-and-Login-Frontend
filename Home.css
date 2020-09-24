@@ -6,7 +6,7 @@
 .head {
     width: 100%;
     height: 200px;
-    background-color:  rgb(47, 48, 163);
+    background: linear-gradient(0deg,  rgb(47, 48, 163), rgb(50, 50, 255));
 }
 .headline {
     color: white;
@@ -15,24 +15,22 @@
     font-size: 2.7em;
 }
 .nav {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 #home-icon {
     margin-left: 50px;
-    font-size: 2em;
+    font-size: 2.5em;
     color: rgb(255, 255, 9);
 }
 .login {
     float: right;
-    
     margin-right: 50px;
     height: 50px;
     width: 130px;
-    background-color: rgb(138, 146, 226);
+    background: linear-gradient(45deg, rgb(138, 146, 226), rgb(191, 196, 235)) ;
     border-radius: 10px;
     font-size: 15px;
     font-weight: 500;
-    transition: 0.8s;
 }
 .user {
     margin-top: 80px;
@@ -44,17 +42,16 @@
     color: black;
     height: 60px;
     width: 170px;
-    background-color: rgb(138, 146, 226);
+    background: linear-gradient(45deg, rgb(138, 146, 226), rgb(191, 196, 235));
     border-radius: 10px;
     font-size: 15px;
     font-weight: 500;
-    transition: 0.8s;
-    box-shadow: black;
 }
 input:hover {
-    background-color: rgb(0, 0, 125);
     color: white;
+    background: linear-gradient(45deg, rgb(0, 0, 125), rgb(87, 86, 168));
     cursor: pointer;
+    transition: 0.7s;
 }
 /* table 
 {
