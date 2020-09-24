@@ -18,3 +18,5 @@ Basic Frontend for Home page, Login page and Registration page for Online Examin
                   
       Pranav:-    1. Student Home page (studenthome.html +  studenthome.css)
                   2. Teacher Home Page (teacherhome.html +  teacherhome.css)
+                  
+      URL:        https://final-year-major-project.github.io/Basic-Registration-and-Login-Frontend/
