@@ -15,19 +15,17 @@
     font-size: 2.7em;
 }
 .nav {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 50px;
 }
 #home-icon {
     font-size: 1.6em;
     color: rgb(255, 255, 9);
 }
-#home-icon {
-
+.home {
     color: rgb(255, 255, 9);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
-
 .signup {
     float: right;
     margin-right: 50px;
