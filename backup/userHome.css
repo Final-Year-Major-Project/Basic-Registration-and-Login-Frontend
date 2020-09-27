@@ -1,0 +1,215 @@
+/* Header */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.head {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(0deg,  rgb(47, 48, 163), rgb(50, 50, 255));
+}
+.headline {
+  color: white;
+  padding-top: 50px;
+  margin-left: 20px;
+  font-size: 2.7em;
+}
+.nav {
+  margin-top: 20px;
+}
+#home-icon {
+  margin-left: 50px;
+  font-size: 2.5em;
+  color: rgb(255, 255, 9);
+}
+.logout {
+  float: right;
+  margin-right: 20px;
+  height: 60px;
+  width: 100px;
+  background: linear-gradient(45deg, rgb(138, 146, 226), rgb(191, 196, 235)) ;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile {
+  float: right;
+  margin-right: 30px;
+  height: 60px;
+  width: 120px;
+  background: linear-gradient(45deg, rgb(138, 146, 226), rgb(191, 196, 235));
+  border-radius: 50%;
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile:hover {
+  cursor: pointer;
+  color: aliceblue;
+  background: linear-gradient(45deg, rgb(55, 55, 180), rgb(100, 100, 201));
+}
+.logout:hover {
+  cursor: pointer;
+  color: aliceblue;
+  background: linear-gradient(45deg, rgb(197, 1, 1), rgb(167, 17, 17));
+}
+
+
+/* Body */
+
+.user {
+  margin-top: 30px;
+  margin-left: 50px;
+  color: rgb(6, 6, 116);
+}
+
+.row {
+  height: 300px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 40px;
+}
+.section {
+  width: 33.33%;
+  margin-bottom: 10px;
+  float: left;
+  height: 300px;
+  position: relative;
+}
+.column {
+  height: 250px;
+  margin-top: 45px;
+  margin-bottom: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
+  text-align: center;
+  background: linear-gradient(45deg,  rgb(50, 50, 255), rgb(115, 129, 231));
+  box-shadow: 0.8px 0.8px 10px black;
+  color: ivory;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.column:hover {
+  transition: 0.2s;
+  box-shadow: 0.5px 0.5px 20px black;
+  cursor: pointer;
+}
+.col-title {            /* Aligning the column text in center of column*/
+  padding-top: 80px;
+}
+a {
+  text-decoration: none;
+}
+
+
+/* .home{
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+    background-color: chartreuse;
+    
+}
+
+.my-button-4{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(176, 209, 241);
+       
+
+} */
+
+
+
+/* h1{
+    background-color:blue;
+    color:white;
+    font-size: 60px;
+    padding-top: 0px;
+    padding-left: 0px;
+    width: 100%;
+    
+    
+} */
+
+
+/* h3{
+
+    color:blue;
+    font-size: 30px;
+}
+
+.my-button{
+    width: 200px;
+    height: 180px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(30, 191, 255, 0.432);
+    color: rgb(255, 254, 254);
+    border: 1px solid goldenrod;
+    
+    box-shadow: 4px 4px lightgrey;
+    color:black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-left: 300px;
+  }
+
+
+  .my-button-2{
+    width: 200px;
+    height: 180px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(30, 191, 255, 0.432);
+    color: rgb(255, 254, 254);
+    border: 1px solid goldenrod;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:black;
+    box-shadow: 4px 4px lightgrey;
+    border-radius: 10px;
+    
+    margin-left: 80px;
+  }
+
+
+  .my-button-3{
+    width: 200px;
+    height: 180px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(30, 191, 255, 0.432);
+    color: rgb(255, 254, 254);
+    border: 1px solid goldenrod;
+    color:black;
+    box-shadow: 4px 4px lightgrey;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+ 
+  .my-button-5{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(79, 245, 181);
+    position:obsolute;
+    right:10px;
+    top:10px;
+    
+  }
+
+
+
+  .my-button:hover,.my-button-2:hover,.my-button-3:hover{
+      background-color: chartreuse;
+  } */
