@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .head {
@@ -53,21 +54,3 @@ input:hover {
     cursor: pointer;
     transition: 0.7s;
 }
-/* table 
-{
-    width:100%;
-}
-
-#header{
-    background-color: blueviolet;
-}
-
-.user{
-    text-align: center;
-}
-
-.login{
-    background-color: blueviolet;
-    height: 300px;
-} */
-

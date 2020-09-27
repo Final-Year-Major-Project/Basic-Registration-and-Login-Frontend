@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="login.css">
   <title>Student Login</title>
 </head>
@@ -13,11 +14,13 @@
     <div class="nav">
       <a href="index.html"><i id="home-icon" class="fa fa-home"></i></a>
       <a class="home" href="index.html">Home</a> 
-      <input class="signup" type="button" value="Sign Up" onclick="window.location.href=''">
+      <a href="studentRegistration.html"><input class="signup" type="button" value="Sign Up"></a>
     </div>
   </div>
-
-  <form action="" autocomplete="off"> 
+  <div class="user">
+    <h1>Student Login</h1>
+  </div>
+  <form action="studentHome.html" autocomplete="off"> 
   
     <div class="container"> 
       <label><b>Username</b></label> &nbsp;&nbsp;&nbsp;
@@ -29,7 +32,7 @@
       <label><b>GR Number</b></label> 
       <input type="password" placeholder="Enter GR Number" name="GrNo" required> <br>
 
-      <button type="submit">Login</button> 
+      <button type="submit"s>Login</button>
     </div> 
 
   </form>
