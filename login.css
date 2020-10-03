@@ -78,3 +78,65 @@ button:hover {
     text-align: center;
     padding: 15px; 
 }
+
+@media (max-width: 768px) {  
+    .headline {
+        margin-left: 0px;
+        font-size: 2em;
+        text-align: center;
+    }
+    .nav {
+        /* text-align: center; */
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #home-icon {
+        margin-left: 20px;
+    }
+    .signup {
+        margin-right: 20px;
+    }
+    .user {
+        font-size: 0.8em;
+    }
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 0px;
+    }
+    input[type=text], 
+    input[type=password],
+        select { 
+            width: 60%; 
+            padding: 8px 15px; 
+            margin: 8px 0; 
+            display: inline-block; 
+            border: 1px solid rgb(160, 160, 160); 
+            box-sizing: border-box; 
+    } 
+    label {
+        font-size: 0.91em;
+    }
+    button { 
+        margin-top: 10px;
+        background-color: rgb(0, 0, 125); 
+        color: white; 
+        padding: 14px 20px;  
+        margin: 8px 0; 
+        border: none; 
+        cursor: pointer; 
+        width: 40%;
+    } 
+    #home-icon {
+        margin-top: 10px;
+        font-size: 1.6em;
+        color: rgb(255, 255, 9);
+    }
+    .home {
+        margin-top: 10px;
+        color: rgb(255, 255, 9);
+        font-size: 1.3em;
+    }
+}

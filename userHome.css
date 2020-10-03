@@ -104,112 +104,51 @@ a {
   text-decoration: none;
 }
 
-
-/* .home{
+@media (max-width: 768px) {  
+  .headline {
+    margin-left: 0px;
+    font-size: 2em;
+    text-align: center;
+  }
+  .nav {
+    /* text-align: center; */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #home-icon {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2em;
+    color: rgb(255, 255, 9);
+  }
+  .logout, .profile {
+    height: 50px;
     width: 80px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 10px;
-    
-    background-color: chartreuse;
-    
-}
-
-.my-button-4{
-    width: 120px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: rgb(176, 209, 241);
-       
-
-} */
-
-
-
-/* h1{
-    background-color:blue;
-    color:white;
-    font-size: 60px;
-    padding-top: 0px;
-    padding-left: 0px;
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .logout {
+    margin-right: 10px;
+  }
+  .user {
+    font-size: 0.92em;
+    margin-top: 40px;
+    color: rgb(6, 6, 116);
+  }
+  .section {
+    float: none;
     width: 100%;
-    
-    
-} */
-
-
-/* h3{
-
-    color:blue;
-    font-size: 30px;
+  }
+  .column {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .row {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 }
-
-.my-button{
-    width: 200px;
-    height: 180px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(30, 191, 255, 0.432);
-    color: rgb(255, 254, 254);
-    border: 1px solid goldenrod;
-    
-    box-shadow: 4px 4px lightgrey;
-    color:black;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-right: 80px;
-    margin-left: 300px;
-  }
-
-
-  .my-button-2{
-    width: 200px;
-    height: 180px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(30, 191, 255, 0.432);
-    color: rgb(255, 254, 254);
-    border: 1px solid goldenrod;
-    margin-left: 50px;
-    margin-right: 50px;
-    color:black;
-    box-shadow: 4px 4px lightgrey;
-    border-radius: 10px;
-    
-    margin-left: 80px;
-  }
-
-
-  .my-button-3{
-    width: 200px;
-    height: 180px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(30, 191, 255, 0.432);
-    color: rgb(255, 254, 254);
-    border: 1px solid goldenrod;
-    color:black;
-    box-shadow: 4px 4px lightgrey;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-left: 80px;
-  }
- 
-  .my-button-5{
-    width: 120px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: rgb(79, 245, 181);
-    position:obsolute;
-    right:10px;
-    top:10px;
-    
-  }
-
-
-
-  .my-button:hover,.my-button-2:hover,.my-button-3:hover{
-      background-color: chartreuse;
-  } */
