@@ -1,0 +1,18 @@
+table 
+{
+    width:100%;
+}
+
+#header{
+    background-color: blueviolet;
+}
+
+.user{
+    text-align: center;
+}
+
+.login{
+    background-color: blueviolet;
+    height: 300px;
+}
+

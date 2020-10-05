@@ -1,0 +1,19 @@
+table 
+{
+    width:100%;
+}
+
+#header{
+    background-color: blueviolet;
+    height: 300px;
+}
+
+.login{
+    text-align: center;
+}
+
+.button {
+    width: 15%;
+    height: 15%;
+    background-color: darksalmon;
+}
